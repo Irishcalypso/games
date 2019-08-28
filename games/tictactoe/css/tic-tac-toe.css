@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #F5EBE0;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  min-height: 500px;
+  border-radius: 5%;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: #ffa630;
+  border: 5px solid #F5EBE0;
+  font-size: 80px;
+  color: #4da1a9;
+  border-radius: 10%;
+}
+
+h1{
+  color:  #F5EBE0;
+  text-align: center;
+}
+
+#player {
+  padding: 1rem;
+}
+
+body {
+  background: #86615c;
+}
